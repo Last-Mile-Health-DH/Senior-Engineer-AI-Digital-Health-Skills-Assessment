@@ -1,4 +1,3 @@
-docker compose -p assesment up -d --build
 ## Last Mile Health Senior Full-Stack Engineer, AI & Digital Health Practice Interview
 
 Welcome! Use this template as a starting point to complete the assessment.
