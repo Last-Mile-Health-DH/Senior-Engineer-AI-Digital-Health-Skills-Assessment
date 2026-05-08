@@ -24,6 +24,7 @@ RUN --mount=type=cache,target=/root/.cache/pip pip install --no-cache-dir -r /re
 COPY . ${HOME_DIR}
 RUN find ${HOME_DIR} -type f -print0 | xargs -0 dos2unix
 RUN chmod +x ${HOME_DIR}/startup.sh
+RUN chmod +x ${HOME_DIR}/startup_unix.sh
 
 FROM python:3.12-slim-bullseye
 
